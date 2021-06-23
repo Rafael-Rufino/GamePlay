@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="893c5b65-249d-41c9-bfc3-cf674772c6c3" name="Default Changelist" comment="" />
+    <list default="true" id="893c5b65-249d-41c9-bfc3-cf674772c6c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gameplay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gameplay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonIcon/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonIcon/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/styles/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/styles/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SignIn/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/SignIn/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SignIn/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +54,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,14 +69,50 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="192" y="0" width="1182" height="554" key="AVDManager" timestamp="1624381605559">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1624416289414">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="192" y="0" width="1182" height="554" key="AVDManager/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624381605559" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1624381160014">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624416289414" />
+    <state x="-133" y="281" width="1182" height="261" key="AVDManager" timestamp="1624478244397">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624381160014" />
+    <state x="-133" y="281" width="1182" height="261" key="AVDManager/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624478244397" />
+    <state width="661" height="172" key="GridCell.Tab.0.bottom" timestamp="1624416304516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="172" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624416304516" />
+    <state width="661" height="172" key="GridCell.Tab.0.center" timestamp="1624416304516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="172" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624416304516" />
+    <state width="661" height="172" key="GridCell.Tab.0.left" timestamp="1624416304516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="172" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624416304516" />
+    <state width="661" height="172" key="GridCell.Tab.0.right" timestamp="1624416304516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="172" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624416304516" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1624415508880">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624415508880" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1624416329016">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1624416329016" />
   </component>
 </project>
