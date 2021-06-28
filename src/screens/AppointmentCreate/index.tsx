@@ -23,6 +23,10 @@ export function AppointmentCreate() {
   const [openGuildsModal, setOpenGuildsModal] = useState(false); 
   const [guild, setGuild] = useState<GuildProps>({} as GuildProps);
 
+  function handleCloseGuilds(){
+    setOpenGuildsModal(false);
+  }
+
   function handleOpenGuilds(){
     setOpenGuildsModal(true);
   }
@@ -30,6 +34,10 @@ export function AppointmentCreate() {
   function handleGuildSelect(guildSelect: GuildProps){
     setGuild(guildSelect);
     setOpenGuildsModal(false);
+  }
+
+  function handleCategorySelect(categoryId: string){
+   setCategory(categoryId);
   }
 
 
@@ -52,7 +60,7 @@ export function AppointmentCreate() {
 
     <CategorySelect 
       hasCheckBox
-      setCategory={setCategory}
+      setCategory={handleCategorySelect}
       categorySelected={category}
     />
 
@@ -85,7 +93,7 @@ export function AppointmentCreate() {
           
       <View style={styles.field}>
         <View>
-          <Text style={styles.label}>
+        <Text style={[styles.label, {marginBottom: 12}]}>
               Dia e mês
           </Text>
           <View style={styles.column}>
@@ -98,7 +106,7 @@ export function AppointmentCreate() {
        </View>
        
        <View>
-          <Text style={styles.label}>
+          <Text style={[styles.label, {marginBottom: 12}]}>
             Hora e minuto
           </Text>
           <View style={styles.column}>
@@ -121,8 +129,6 @@ export function AppointmentCreate() {
         </Text>
       </View>
 
-
-
       <TextArea
       multiline
       maxLength={100}
@@ -135,13 +141,14 @@ export function AppointmentCreate() {
     </View>
     
     </ScrollView>
-      <ModalView visible = {openGuildsModal}>
+    
+  </Background>
+      <ModalView visible = {openGuildsModal} closeModal = {handleCloseGuilds}> 
         <Guilds handleGuildSelect= {handleGuildSelect}/>
         
       </ModalView>
 
 
-  </Background>
   </KeyboardAvoidingView>
   );
 }
